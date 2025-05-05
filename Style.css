@@ -1,3 +1,7 @@
-body {background-color: blueviolet;}
-
-hr{ color: black;}
+body{ background-color: lightblue;}
+h1 {background-color:gray;}
+p { font: 45px; color: navy;}
+img { border: 5px solid;}
+table{ border: 2px solid black;}
+table { background-color: burlywood;}
+table td{color: purple;}
