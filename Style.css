@@ -11,3 +11,5 @@ table { background-color: burlywood;}
 table tr{color: brown;}
 
 table td{color: blueviolet;}
+
+table { border spacing; 10px}
