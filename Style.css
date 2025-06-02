@@ -1,15 +1,9 @@
 body{ background-color: lightblue;}
-
 h1 {background-color:gray;}
-
 p { font: 45px; color: navy;}
-
 img { border: 5px solid;}
-
+img { margin: 0%; padding: 0%;}
 table { background-color: burlywood;}
-
 table tr{color: brown;}
-
 table td{color: blueviolet;}
-
 table { border spacing; 10px}
