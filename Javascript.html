@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="date"></p>
+    <script>
+        let currentDate = new Date();
+        let formattedDate =currentDate.toLocaleDateString9();
+        document.getElementById("date").
+innerHTML = formattedDate;
+</script>
+</body>
+</html>
+<form id="myForm">
+<input type="text"
+id="myInput" placeholder="Enter your name"
+<button type="submit">Submit</button>
+</form>
+<script>
+let form=document.getElementById("myForm")
+let input=document.getElementById("myInput")
+form.addEventListener("submit", (e)=> {
+if (input.value===""){
+e,preventDefault();
+alert(Please complete in the input field.");
+}
+});
+</script>
+</body>
+</html>
