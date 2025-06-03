@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-<style>
-body{ background-color: lightblue}
-</style>
-    
-</body>
-<button type="button" onclick="displayDate">Show Date</button>
+    <script>
+        
+function displayDate() {
+document.getElementById("showDATE").innerHTML=Date();
+}
+    </script>
+    </head>
+    <body>
+
+<button type="button" onclick="displayDate()"> Show
+     Date</button>
 <p id="showDate"></p>
+<script>
+function displayDate() {
+// Get the current date
+let currentDate = new Date();
+        let formattedDate =currentDate.toLocaleDateString9();
+        //Get element to display date
+        let dateElement=document.getElementById("date");
+        // Cgeck if element exists before setting its innerHTML
+        if(dateElement){
+dateElement.innerHTML = formattedDate;
+} else{
+
+    console.error("Element with ID 'date' not found.");
+}
+</script>
+    </body>
 </html></style>
 <div style="text-align:center; margin-top: 45px.;">
 <a style="padding-right: 25px;" href="Home.html">Home</a>
