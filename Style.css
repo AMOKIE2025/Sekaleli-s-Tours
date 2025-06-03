@@ -8,4 +8,16 @@ table tr{color: brown;}
 table td{color: blueviolet;}
 table { border spacing; 10px}
 p { text-align: justify;}
-iframe, img{display: block;margin: 0 auto;}
+  iframe, img{display: block;margin: 0 auto;}
+/* Default styles */
+.container { width: 80%;
+    margin: 0 auto;
+}
+/* Responsive styles for mobile devices */
+@media    (max-width:768px){
+.container {
+width: 100%;
+padding: 20px;
+}
+h1 { font-size: 24px;}
+} 

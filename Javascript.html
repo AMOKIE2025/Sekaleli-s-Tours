@@ -7,23 +7,19 @@
 </head>
 <body>
     <h1> Welcome To Our Website!</h1>
-    <p id="date"></p>
-    <script>
-        let currentDate = new Date();
-        let formattedDate =currentDate.toLocaleDateString9();
-        document.getElementById("date").
-innerHTML = formattedDate;
-</script>
 </body>
 </html>
 <form id="myForm">
 <input type="text"
-id="myInput" placeholder="Enter your name"
-<button type="submit">Submit</button>
+    id="myInput" placeholder= "Enter your name"
+    <button type="Submit">Submit</button>
 </form>
+</html> 
 <script>
-let form=document.getElementById("myForm")
-let input=document.getElementById("myInput")
+let form=document.getElementById("myForm");
+let input=document.getElementById("myInput");
+<input type="button" value="Submit">
+// Validate form input
 form.addEventListener("submit", (e)=> {
 if (input.value===""){
 e,preventDefault();
@@ -31,5 +27,3 @@ alert(Please complete in the input field.");
 }
 });
 </script>
-</body>
-</html>
